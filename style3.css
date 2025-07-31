@@ -35,6 +35,16 @@ body {
     color: #FFFFFF;
 }
 
+.logoname {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.logoname:hover {
+    color: #6e9cf2;
+}
+
 .arrow {
     height: 7px; 
     margin-left: 7px;

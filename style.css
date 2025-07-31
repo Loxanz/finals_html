@@ -142,6 +142,10 @@ body {
     cursor: pointer;
 }
 
+.start-learning-btn:hover {
+    background-color: #3478F6;
+}
+
 .unlocking {
     display: flex;
     position: absolute;
