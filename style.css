@@ -121,12 +121,14 @@ body {
     text-align: center;
     position: relative;
     margin-left: 20px;
+    margin-top: 100px;
 }
 
 .start-learning-btn {
     display: flex;
     position: absolute;
     margin-left: 950px;
+    margin-bottom: 200px;
     background-color: #6E9CF2;
     color: #FFFFFF;
     border: none;
@@ -136,6 +138,8 @@ body {
     font-weight: 700;
     white-space: nowrap;
     text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .unlocking {
@@ -146,7 +150,7 @@ body {
     margin-bottom: 25px;
     text-align: left;
     margin-left: 120px;
-    margin-top: 260px;
+    margin-top: 360px;
     width: 800px;
 }
 
@@ -156,7 +160,7 @@ body {
     font-size: 20px;
     width: 1000px;
     color: #222222;
-    margin-top: 130px;
+    margin-top: 120px;
     margin-left: 120px;
     text-align: center;
 }
@@ -169,7 +173,7 @@ body {
     text-align: center;
     white-space: nowrap;
     margin-left: 240px;
-    margin-top: 160px;
+    margin-top: 150px;
 }
 
 .disability-buttons {
@@ -178,7 +182,7 @@ body {
     gap: 20px;
     flex-direction: row;
     white-space: nowrap;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .disability-btn {
@@ -197,16 +201,16 @@ body {
     display: flex;
     position: absolute;
     margin-left: 725px;
-    margin-top: 100px;
+    margin-top: 225px;
 }
 
 .agreement {
     display: flex;
-    overflow: visible;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    margin-top: 160px;
+    margin-top: 105px;
+    margin-right: 100px;
     padding: 0px 0rem 0px 10rem;
 }
 
@@ -305,8 +309,8 @@ body {
     }
 
     .start-learning-btn {
-        position: static;
-        margin-left: 0;
+        position: inherit;
+        margin: 0;
         font-size: 24px;
         padding: 15px 30px;
     }
@@ -321,7 +325,7 @@ body {
 
     .unlocking {
         font-size: 18px;
-        margin-top: 25px;
+        margin-top: 70px;
     }
 
     .learnable {
@@ -360,8 +364,10 @@ body {
     }
 
     .agreement {
+        align-items: center;
         flex-direction: column;
         margin-top: 80px;
+        margin-left: 100px;
         padding: 0;
         gap: 20px;
     }
