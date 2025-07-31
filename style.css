@@ -1,0 +1,373 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+}
+
+.header-container {
+    display: flex;
+    background-color: #222222;
+    padding: 1px 0;
+    width: 200%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3rem 0px 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    display: flex;
+    height: 80px;
+}
+
+.logo-text {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.arrow {
+    display: flex;
+    height: 7px; 
+    margin-left: 7px;
+}
+
+.abouts {
+    display: flex;
+    margin-right: 50px;
+}
+
+.about { 
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 400px;
+    white-space: nowrap;
+}
+
+.about li {
+    display: flex;
+    font-size: 20px;
+    margin-left: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons img {
+    display: flex;
+    margin-left: 50px;
+    height: 35px;
+}
+
+.donate-btn {
+    display: flex;
+    background-color: #6E9CF2;
+    color: #ffffff;
+    border: none;
+    font-size: 30px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.header-icon {
+    display: flex;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.urway {
+    position: relative;
+    margin: 1px 0 0 100px;
+}
+
+.learn {
+    display: flex;
+    font-size: 100px;
+    width: 1000px;
+    font-weight: 700;
+    color: #222222;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+}
+
+.start-learning-btn {
+    display: flex;
+    position: absolute;
+    margin-left: 950px;
+    background-color: #6E9CF2;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.unlocking {
+    display: flex;
+    position: absolute;
+    font-size: 26px;
+    color: #222222; 
+    margin-bottom: 25px;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 260px;
+    width: 800px;
+}
+
+.able {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    width: 1000px;
+    color: #222222;
+    margin-top: 130px;
+    margin-left: 120px;
+    text-align: center;
+}
+
+.and {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 240px;
+    margin-top: 160px;
+}
+
+.disability-buttons {
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+    flex-direction: row;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.disability-btn {
+    background-color: #3478F6;
+    color: #ffffff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+
+.paw {
+    display: flex;
+    position: absolute;
+    margin-left: 725px;
+    margin-top: 100px;
+}
+
+.agreement {
+    display: flex;
+    overflow: visible;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 160px;
+    padding: 0px 0rem 0px 10rem;
+}
+
+.foot, .footer {
+    display: flex;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    margin: 0;
+}
+
+.foot {
+    display: flex;
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.footers {
+    display: flex;
+    margin-left: 500px;
+    gap: 20px;
+}
+
+@media (max-width: 376px) {
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .abouts {
+        align-items: center;
+        margin-left: 90px;
+        margin-top: 15px;
+    }
+
+    .about {
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 15px;
+    }
+
+    .about li {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .header-buttons {
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .donate-btn {
+        align-items: center;
+        font-size: 20px;
+        padding: 10px 25px;
+        margin-left: 0;
+    }
+
+    .header-buttons img {
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+    }
+
+    .main-section {
+        padding: 40px 20px;
+        max-width: 100%;
+    }
+
+    .urway {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .learn {
+        font-size: 48px;
+        width: auto;
+        text-align: center;
+        line-height: 1.2;
+        margin-left: 0;
+    }
+
+    .start-learning-btn {
+        position: static;
+        margin-left: 0;
+        font-size: 24px;
+        padding: 15px 30px;
+    }
+
+    .unlocking, .able, .and {
+        position: static;
+        width: auto;
+        margin: 0;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .unlocking {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .learnable {
+        margin-top: 80px;
+    }
+    
+    .able {
+
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .and {
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .disability-buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .disability-btn {
+        font-size: 20px;
+        padding: 12px 35px;
+        text-align: center;
+    }
+
+    .paw {
+        display: none;
+    }
+
+    .agreement {
+        flex-direction: column;
+        margin-top: 80px;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .footers {
+        margin-left: 0;
+        justify-content: center;
+    }
+}
