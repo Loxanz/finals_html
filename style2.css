@@ -211,6 +211,11 @@ body {
     margin-top: 70px;
 }
 
+.alpha {
+  text-decoration: none;
+  color: #000000;
+}
+
 .students {
     display: flex;
     position: absolute;
